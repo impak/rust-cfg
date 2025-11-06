@@ -67,7 +67,7 @@ bind i +gestures                    # Open gestures menu
 ```
 
 ```
-bind j clan.toggleclan              # Toggle clan menu
+bind 0 clan.toggleclan              # Toggle clan menu
 ```
 
 ```
@@ -103,7 +103,7 @@ bind t consoletoggle                # Toggle developer console
 ```
 
 ```
-bind v inventory.togglecrafting     # Toggle crafting menu
+bind j inventory.togglecrafting     # Toggle crafting menu
 ```
 
 ```
