@@ -9,6 +9,7 @@
 # Use this file (keys.cfg) as the single source of truth for custom keybinds.
 # ------------------------------------------------------------
 
+```cfg
 bind tab +reload                    # Reload weapon or tool
 bind return chat.open               # Open chat window
 bind space +jump                    # Jump
@@ -68,3 +69,4 @@ bind [leftcontrol+7] swaptoseat 6   # Swap to vehicle seat 6
 bind [leftcontrol+8] swaptoseat 7   # Swap to vehicle seat 7
 bind [leftshift+mousewheelup] +wireslackup     # Adjust wire slack (increase)
 bind [leftshift+mousewheeldown] +wireslackdown # Adjust wire slack (decrease)
+```
