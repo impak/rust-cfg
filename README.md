@@ -1,245 +1,233 @@
 # rust-cfg
-### Custom key bindings for Rust
+## Custom key bindings for Rust
 
 NOTE: The default key configuration file (keys_default.cfg) was removed intentionally.
 Keeping both files may cause conflicts or duplicated bindings,
 since Rust automatically merges configuration sources on startup.
 Use this file (keys.cfg) as the single source of truth for custom keybinds.
 
+#### Reload weapon or tool
 ```
-bind tab +reload                    # Reload weapon or tool
+bind tab +reload                    
 ```
-
+#### Open chat window
 ```
-bind return chat.open               # Open chat window
+bind return chat.open               
 ```
-
+#### Jump
 ```
-bind space +jump                    # Jump
+bind space +jump                    
 ```
-
+#### Move forward and sprint
 ```
-bind 1 forward;sprint               # Move forward and sprint
+bind 1 forward;sprint              
 ```
-
+#### Equip item in slot 2
 ```
-bind 3 +slot2                       # Equip item in slot 2
+bind 3 +slot2                      
 ```
-
+#### Equip item in slot 3
 ```
-bind 4 +slot3                       # Equip item in slot 3
+bind 4 +slot3                       
 ```
-
+#### Focus the map view
 ```
-bind 5 +focusmap                    # Focus the map view
+bind 5 +focusmap                    
 ```
-
+#### Holster the active item
 ```
-bind 7 +holsteritem                 # Holster the active item
+bind 7 +holsteritem                 
 ```
-
+#### Move left (strafe)
 ```
-bind a +left                        # Move left (strafe)
+bind a +left                        
 ```
-
+#### Equip item in slot 5
 ```
-bind c +slot5                       # Equip item in slot 5
+bind c +slot5                       
 ```
-
+#### Move right (strafe)
 ```
-bind d +right                       # Move right (strafe)
+bind d +right                      
 ```
-
+#### Toggle flashlight or headlamp
 ```
-bind e lighttoggle                  # Toggle flashlight or headlamp
+bind e lighttoggle                  
 ```
-
+#### Open map and equip item in slot 4
 ```
-bind f +focusmap;+slot4             # Open map and equip item in slot 4
+bind f +focusmap;+slot4             
 ```
-
+#### Toggle inventory
 ```
-bind h inventory.toggle             # Toggle inventory
+bind h inventory.toggle             
 ```
-
+#### Open gestures menu
 ```
-bind i +gestures                    # Open gestures menu
+bind i +gestures                    
 ```
-
+#### Toggle clan menu
 ```
-bind 0 clan.toggleclan              # Toggle clan menu
+bind 0 clan.toggleclan              
 ```
-
+#### Drop held item in facing direction
 ```
-bind k +directionaldrop             # Drop held item in facing direction
+bind k +directionaldrop             
 ```
-
+#### Open map
 ```
-bind m +map                         # Open map
+bind m +map                         
 ```
-
+#### Examine held item and focus map
 ```
-bind n inventory.examineheld;+focusmap  # Examine held item and focus map
+bind n inventory.examineheld;+focusmap  
 ```
-
+#### Open pet interaction menu
 ```
-bind p +pets                        # Open pet interaction menu
+bind p +pets                        
 ```
-
+#### Equip item in slot 6
 ```
-bind q +slot6                       # Equip item in slot 6
+bind q +slot6                       
 ```
-
+#### Open crafting and interact
 ```
-bind r inventory.togglecrafting;inventory.togglecrafting;+use  # Open crafting and interact
+bind r inventory.togglecrafting;inventory.togglecrafting;+use  
 ```
-
+#### Move backward
 ```
-bind s +backward                    # Move backward
+bind s +backward                    
 ```
-
+#### Toggle developer console
 ```
-bind t consoletoggle                # Toggle developer console
+bind t consoletoggle                
 ```
-
+#### Toggle crafting menu
 ```
-bind j inventory.togglecrafting     # Toggle crafting menu
+bind j inventory.togglecrafting     
 ```
-
+#### Move forward and sprint (redundant but useful)
 ```
-bind w +forward;+sprint             # Move forward and sprint (redundant but useful)
+bind w +forward;+sprint             
 ```
-
+#### Swap vehicle seats
 ```
-bind x swapseats                    # Swap vehicle seats
+bind x swapseats                    
 ```
-
+#### Open tutorial/help
 ```
-bind y +opentutorialhelp            # Open tutorial/help
+bind y +opentutorialhelp            
 ```
-
+#### Equip item in slot 1
 ```
-bind z +slot1                       # Equip item in slot 1
+bind z +slot1                      
 ```
-
+#### Commit suicide (respawn)
 ```
-bind delete kill                    # Commit suicide (respawn)
+bind delete kill                    
 ```
-
+#### Musical
 ```
-bind keypad1 +notec                 # Musical note C
+bind keypad1 +notec                 
 ```
-
 ```
-bind keypad2 +noted                 # Musical note D
+bind keypad2 +noted                
 ```
-
 ```
-bind keypad3 +notee                 # Musical note E
+bind keypad3 +notee                 
 ```
-
 ```
-bind keypad4 +notef                 # Musical note F
+bind keypad4 +notef                 
 ```
-
 ```
-bind keypad5 +noteg                 # Musical note G
+bind keypad5 +noteg                 
 ```
-
 ```
-bind keypad6 +notea                 # Musical note A
+bind keypad6 +notea                 
 ```
-
 ```
-bind keypad7 +noteb                 # Musical note B
+bind keypad7 +noteb                 
 ```
-
+#### Sharpen note modifier
 ```
-bind keypadplus +notesharpmod       # Sharpen note modifier
+bind keypadplus +notesharpmod       
 ```
-
+#### Octave-up modifier
 ```
-bind keypadenter +noteoctaveupmod   # Octave-up modifier
+bind keypadenter +noteoctaveupmod  
 ```
-
+#### Zoom in
 ```
-bind pageup +zoomincrease           # Zoom in
+bind pageup +zoomincrease           
 ```
-
+#### Zoom out
 ```
-bind pagedown +zoomdecrease         # Zoom out
+bind pagedown +zoomdecrease         
 ```
-
+#### Toggle developer console (alternative)
 ```
-bind f1 consoletoggle               # Toggle developer console (alternative)
+bind f1 consoletoggle               
 ```
-
+#### Free look while holding Shift
 ```
-bind leftshift +altlook             # Free look while holding Shift
+bind leftshift +altlook             
 ```
-
+#### Crouch
 ```
-bind leftcontrol +duck              # Crouch
+bind leftcontrol +duck             
 ```
-
+#### Primary attack
 ```
-bind mouse0 +attack                 # Primary attack
+bind mouse0 +attack                 
 ```
-
+#### Secondary attack
 ```
-bind mouse1 +attack2                # Secondary attack
+bind mouse1 +attack2                
 ```
-
+#### Tertiary attack (e.g. melee bash)
 ```
-bind mouse2 +attack3                # Tertiary attack (e.g. melee bash)
+bind mouse2 +attack3                
 ```
-
+#### Ping location
 ```
-bind mouse3 +ping                   # Ping location
+bind mouse3 +ping                   
 ```
-
+#### Loot items by hovering
 ```
-bind mouse4 +hoverloot              # Loot items by hovering
+bind mouse4 +hoverloot             
 ```
-
+#### Swap to vehicle
 ```
-bind [leftcontrol+1] swaptoseat 0   # Swap to vehicle seat 0
+bind [leftcontrol+1] swaptoseat 0  
 ```
-
 ```
-bind [leftcontrol+2] swaptoseat 1   # Swap to vehicle seat 1
+bind [leftcontrol+2] swaptoseat 1   
 ```
-
 ```
-bind [leftcontrol+3] swaptoseat 2   # Swap to vehicle seat 2
+bind [leftcontrol+3] swaptoseat 2  
 ```
-
 ```
-bind [leftcontrol+4] swaptoseat 3   # Swap to vehicle seat 3
+bind [leftcontrol+4] swaptoseat 3   
 ```
-
 ```
-bind [leftcontrol+5] swaptoseat 4   # Swap to vehicle seat 4
+bind [leftcontrol+5] swaptoseat 4   
 ```
-
 ```
-bind [leftcontrol+6] swaptoseat 5   # Swap to vehicle seat 5
+bind [leftcontrol+6] swaptoseat 5   
 ```
-
 ```
-bind [leftcontrol+7] swaptoseat 6   # Swap to vehicle seat 6
+bind [leftcontrol+7] swaptoseat 6   
 ```
-
 ```
-bind [leftcontrol+8] swaptoseat 7   # Swap to vehicle seat 7
+bind [leftcontrol+8] swaptoseat 7  
 ```
-
+#### Adjust wire slack (increase)
 ```
-bind [leftshift+mousewheelup] +wireslackup     # Adjust wire slack (increase)
+bind [leftshift+mousewheelup] +wireslackup    
 ```
-
+#### Adjust wire slack (decrease)
 ```
-bind [leftshift+mousewheeldown] +wireslackdown # Adjust wire slack (decrease)
+bind [leftshift+mousewheeldown] +wireslackdown 
 ```
 
 
