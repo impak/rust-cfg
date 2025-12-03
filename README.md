@@ -8,7 +8,7 @@ Use this file (keys.cfg) as the single source of truth for custom keybinds.
 
 #### Reload weapon or tool
 ```
-bind tab +reload                    
+bind t +reload                    
 ```
 #### Open chat window
 ```
@@ -20,7 +20,7 @@ bind space +jump
 ```
 #### Move forward and sprint
 ```
-bind 1 forward;sprint              
+bind q forward;sprint             
 ```
 #### Equip item in slot 2
 ```
